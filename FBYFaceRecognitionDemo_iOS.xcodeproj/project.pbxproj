@@ -15,6 +15,18 @@
 		45B548532058DFF6002CB616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B548522058DFF6002CB616 /* main.m */; };
 		45B5485D2058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5485C2058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSTests.m */; };
 		45B548682058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B548672058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSUITests.m */; };
+		45B5487A2058E041002CB616 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B548792058E041002CB616 /* libz.tbd */; };
+		45B5487C2058E049002CB616 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B5487B2058E048002CB616 /* libc++.1.tbd */; };
+		45B5487E2058E091002CB616 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B5487D2058E091002CB616 /* iflyMSC.framework */; };
+		45B548882058E459002CB616 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B548872058E459002CB616 /* SystemConfiguration.framework */; };
+		45B5489D2058E57D002CB616 /* openMouth0.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B548972058E57C002CB616 /* openMouth0.png */; };
+		45B5489E2058E57D002CB616 /* openMouth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B548982058E57C002CB616 /* openMouth1.png */; };
+		45B5489F2058E57D002CB616 /* shakeHead1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B548992058E57C002CB616 /* shakeHead1.png */; };
+		45B548A02058E57D002CB616 /* shakeHead2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B5489A2058E57D002CB616 /* shakeHead2.png */; };
+		45B548A12058E57D002CB616 /* shakeHead3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B5489B2058E57D002CB616 /* shakeHead3.png */; };
+		45B548A22058E57D002CB616 /* shakeHead0.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B5489C2058E57D002CB616 /* shakeHead0.png */; };
+		45B548AD2058E79B002CB616 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B548932058E4BC002CB616 /* CoreTelephony.framework */; };
+		45B548AF2058EEE9002CB616 /* libFBYFaceRecognition_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B548AE2058EEE9002CB616 /* libFBYFaceRecognition_all.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,26 @@
 		45B548632058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBYFaceRecognitionDemo_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B548672058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYFaceRecognitionDemo_iOSUITests.m; sourceTree = "<group>"; };
 		45B548692058DFF6002CB616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B548752058E028002CB616 /* FBYFaceRecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBYFaceRecognitionViewController.h; sourceTree = "<group>"; };
+		45B548792058E041002CB616 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		45B5487B2058E048002CB616 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		45B5487D2058E091002CB616 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		45B548832058E33C002CB616 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45B548872058E459002CB616 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45B548892058E479002CB616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45B5488B2058E487002CB616 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		45B5488D2058E496002CB616 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45B5488F2058E4A2002CB616 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45B548912058E4AD002CB616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45B548932058E4BC002CB616 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		45B548972058E57C002CB616 /* openMouth0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openMouth0.png; sourceTree = "<group>"; };
+		45B548982058E57C002CB616 /* openMouth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openMouth1.png; sourceTree = "<group>"; };
+		45B548992058E57C002CB616 /* shakeHead1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeHead1.png; sourceTree = "<group>"; };
+		45B5489A2058E57D002CB616 /* shakeHead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeHead2.png; sourceTree = "<group>"; };
+		45B5489B2058E57D002CB616 /* shakeHead3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeHead3.png; sourceTree = "<group>"; };
+		45B5489C2058E57D002CB616 /* shakeHead0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeHead0.png; sourceTree = "<group>"; };
+		45B548A82058E6B9002CB616 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		45B548AE2058EEE9002CB616 /* libFBYFaceRecognition_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFBYFaceRecognition_all.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B548AD2058E79B002CB616 /* CoreTelephony.framework in Frameworks */,
+				45B548882058E459002CB616 /* SystemConfiguration.framework in Frameworks */,
+				45B548AF2058EEE9002CB616 /* libFBYFaceRecognition_all.a in Frameworks */,
+				45B5487E2058E091002CB616 /* iflyMSC.framework in Frameworks */,
+				45B5487C2058E049002CB616 /* libc++.1.tbd in Frameworks */,
+				45B5487A2058E041002CB616 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +123,7 @@
 				45B5485B2058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSTests */,
 				45B548662058DFF6002CB616 /* FBYFaceRecognitionDemo_iOSUITests */,
 				45B548412058DFF6002CB616 /* Products */,
+				45B548782058E041002CB616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +140,7 @@
 		45B548422058DFF6002CB616 /* FBYFaceRecognitionDemo_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				45B548952058E563002CB616 /* FBYFaceRecognitionData */,
 				45B548432058DFF6002CB616 /* AppDelegate.h */,
 				45B548442058DFF6002CB616 /* AppDelegate.m */,
 				45B548462058DFF6002CB616 /* ViewController.h */,
@@ -130,6 +170,48 @@
 				45B548692058DFF6002CB616 /* Info.plist */,
 			);
 			path = FBYFaceRecognitionDemo_iOSUITests;
+			sourceTree = "<group>";
+		};
+		45B548782058E041002CB616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B548A82058E6B9002CB616 /* AudioToolbox.framework */,
+				45B548932058E4BC002CB616 /* CoreTelephony.framework */,
+				45B548912058E4AD002CB616 /* Foundation.framework */,
+				45B5488F2058E4A2002CB616 /* AVFoundation.framework */,
+				45B5488D2058E496002CB616 /* CoreLocation.framework */,
+				45B5488B2058E487002CB616 /* AddressBook.framework */,
+				45B548892058E479002CB616 /* CoreGraphics.framework */,
+				45B548872058E459002CB616 /* SystemConfiguration.framework */,
+				45B548832058E33C002CB616 /* UIKit.framework */,
+				45B5487D2058E091002CB616 /* iflyMSC.framework */,
+				45B5487B2058E048002CB616 /* libc++.1.tbd */,
+				45B548792058E041002CB616 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B548952058E563002CB616 /* FBYFaceRecognitionData */ = {
+			isa = PBXGroup;
+			children = (
+				45B548AE2058EEE9002CB616 /* libFBYFaceRecognition_all.a */,
+				45B548752058E028002CB616 /* FBYFaceRecognitionViewController.h */,
+				45B548962058E572002CB616 /* image */,
+			);
+			path = FBYFaceRecognitionData;
+			sourceTree = "<group>";
+		};
+		45B548962058E572002CB616 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				45B548972058E57C002CB616 /* openMouth0.png */,
+				45B548982058E57C002CB616 /* openMouth1.png */,
+				45B5489C2058E57D002CB616 /* shakeHead0.png */,
+				45B548992058E57C002CB616 /* shakeHead1.png */,
+				45B5489A2058E57D002CB616 /* shakeHead2.png */,
+				45B5489B2058E57D002CB616 /* shakeHead3.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +320,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B5489F2058E57D002CB616 /* shakeHead1.png in Resources */,
+				45B548A22058E57D002CB616 /* shakeHead0.png in Resources */,
+				45B5489D2058E57D002CB616 /* openMouth0.png in Resources */,
+				45B548A12058E57D002CB616 /* shakeHead3.png in Resources */,
+				45B5489E2058E57D002CB616 /* openMouth1.png in Resources */,
 				45B548502058DFF6002CB616 /* LaunchScreen.storyboard in Resources */,
 				45B5484D2058DFF6002CB616 /* Assets.xcassets in Resources */,
 				45B5484B2058DFF6002CB616 /* Main.storyboard in Resources */,
+				45B548A02058E57D002CB616 /* shakeHead2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +520,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FBYFaceRecognitionDemo_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYFaceRecognitionDemo_iOS",
+					"$(PROJECT_DIR)/FBYFaceRecognitionDemo_iOS/FBYFaceRecognitionData",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYFaceRecognitionDemo-iOS.a.FBYFaceRecognitionDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,8 +546,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FBYFaceRecognitionDemo_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYFaceRecognitionDemo_iOS",
+					"$(PROJECT_DIR)/FBYFaceRecognitionDemo_iOS/FBYFaceRecognitionData",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYFaceRecognitionDemo-iOS.a.FBYFaceRecognitionDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

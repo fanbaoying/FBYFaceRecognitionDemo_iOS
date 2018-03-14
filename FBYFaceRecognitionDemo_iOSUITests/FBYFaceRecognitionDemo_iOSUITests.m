@@ -2,7 +2,7 @@
 //  FBYFaceRecognitionDemo_iOSUITests.m
 //  FBYFaceRecognitionDemo_iOSUITests
 //
-//  Created by 范保莹 on 2018/3/14.
+//  Created by fby on 2018/3/14.
 //  Copyright © 2018年 FBYFaceRecognitionDemo_iOS. All rights reserved.
 //
 
